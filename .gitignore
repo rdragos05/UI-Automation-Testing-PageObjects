@@ -1,0 +1,72 @@
+# Compiled source #
+#####################--
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+#*.jar
+*.rar
+*.tar
+#*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+target/
+.dropbox
+test-output/
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# CDT-specific
+.cproject
+
+.svn
+*.tmproj
+*.tmproject
+tmtags
+
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea/
+
+# Windows image file caches
+
+# Folder config file
+Desktop.ini
+
+atlassian-ide-plugin.xml
+dependency-reduced-pom.xml
